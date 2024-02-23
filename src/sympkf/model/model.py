@@ -9,7 +9,7 @@ class Parallel(object):
     """
     Tool for // computation
     """
-    def __init__(self, f,nb_pool=4):
+    def __init__(self, f,nb_pool=2):
         self.f = f
         self.nb_pool = nb_pool
 
